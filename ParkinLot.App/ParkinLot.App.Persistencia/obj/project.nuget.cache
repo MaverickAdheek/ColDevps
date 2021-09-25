@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZNy1nvhLAXVvPFlXUqir13SgPzSGN7hrIvMkdDB5amcNAKwY78OY+TqaGn03tBWdRxec9MaDVOB9F9QqwfUiSg==",
+  "success": true,
+  "projectFilePath": "C:\\ColDevps\\ParkinLot.App\\ParkinLot.App.Persistencia\\ParkinLot.App.Persistencia.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Cesar\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Cesar\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

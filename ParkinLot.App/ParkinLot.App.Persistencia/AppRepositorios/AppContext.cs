@@ -9,6 +9,11 @@ namespace ParkinLot.App.Persistencia
         public DbSet<Vehiculo> Vehiculos { get; set; }
         public DbSet<Carro> Carros { get; set; }
         public DbSet<Moto> Motos { get; set; }
+        public DbSet<Persona> Personas { get; set; }
+        public DbSet<AdministradorSistema> AdministradoresSistema { get; set; }
+        public DbSet<DuenhoVehiculo> DuenosVehiculos { get; set; }
+        public DbSet<Gerente> Gerentes { get; set; }
+        public DbSet<Auxiliar> Auxiliares { get; set; }
 
         /* Método para la configuración de la conexión con la base de datos. 
         La base de datos tiene el nombre de ParkinLot.Data */

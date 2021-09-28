@@ -1,4 +1,5 @@
 using System;
+using ParkinLot.App.Dominio;
 
 namespace parkinLot.App.Dominio
 {
@@ -8,6 +9,8 @@ namespace parkinLot.App.Dominio
         public DateTime FechaReserva { get; set; }
         public DateTime HoraInicio { get; set; }
         public DateTime HoraFin { get; set; }
-        //faltan las asociaciones de vehiculo y espacio.
+        public Vehiculo Vehiculo { get; set; }
+        public EspacioParquedero EspacioParquedero { get; set; }
+        
     }
 }

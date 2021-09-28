@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using ParkinLot.App.Dominio;
 
 namespace parkinLot.App.Dominio
 {
@@ -9,7 +10,7 @@ namespace parkinLot.App.Dominio
         public string Telefono { get; set; }
         public DateTime FechaNacimiento { get; set; }
 
-        // falta la lista de vehículos
+        public List<Vehiculo> Vehiculos { get; set; }
         
     }
 }

@@ -1,7 +1,6 @@
 using System;
-using ParkinLot.App.Dominio;
 
-namespace parkinLot.App.Dominio
+namespace ParkinLot.App.Dominio
 {
     public class Reserva
     {
@@ -10,7 +9,7 @@ namespace parkinLot.App.Dominio
         public DateTime HoraInicio { get; set; }
         public DateTime HoraFin { get; set; }
         public Vehiculo Vehiculo { get; set; }
-        public EspacioParquedero EspacioParquedero { get; set; }
+        public EspacioParqueadero EspacioParquedero { get; set; }
         
     }
 }

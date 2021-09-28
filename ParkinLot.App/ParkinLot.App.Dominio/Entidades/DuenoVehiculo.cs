@@ -1,8 +1,7 @@
 using System;
 using System.Collections.Generic;
-using ParkinLot.App.Dominio;
 
-namespace parkinLot.App.Dominio
+namespace ParkinLot.App.Dominio
 {
     public class DuenoVehiculo: Persona
     {

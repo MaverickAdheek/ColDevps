@@ -17,4 +17,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ParkinLot.App.Dominio\ParkinLot.App.Dominio.csproj" />
+  </ItemGroup>
+
 </Project>

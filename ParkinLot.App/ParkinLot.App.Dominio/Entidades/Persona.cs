@@ -1,6 +1,6 @@
 using System;
 
-namespace parkinLot.App.Dominio
+namespace ParkinLot.App.Dominio
 {
     public class Persona
     {

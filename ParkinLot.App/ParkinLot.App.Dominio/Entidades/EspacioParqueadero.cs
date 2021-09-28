@@ -1,8 +1,8 @@
 using System;
 
-namespace parkinLot.App.Dominio
+namespace ParkinLot.App.Dominio
 {
-    public class EspacioParquedero
+    public class EspacioParqueadero
     {
         public int Id { get; set; }
         public TipoEspacio TipoEspacio { get; set; }

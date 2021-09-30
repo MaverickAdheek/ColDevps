@@ -11,5 +11,6 @@ namespace ParkinLot.App.Dominio
         public string Placa { get; set; }
         public string Defectos { get; set; }
         public TipoVehiculo TipoVehiculo { get; set; }
+        public DuenoVehiculo DuenoVehiculo { get; set; } // Se crea una propiedad DuenoVehiculo para poder hacer la conexión entre tablas
     }
 }

@@ -1,10 +1,9 @@
 using Microsoft.EntityFrameworkCore;
-//using parkinLot.App.Dominio;
 using ParkinLot.App.Dominio;
 
 namespace ParkinLot.App.Persistencia
 {
-    public class AppContext : DbContext
+    public class AppContexto : DbContext
     {
         // Creación de los DbSets para cada entidad
         public DbSet<Vehiculo> Vehiculos { get; set; }
@@ -25,6 +24,21 @@ namespace ParkinLot.App.Persistencia
                 optionsBuilder.
                 UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog =ParkinLot.Data");
             }
+        }
+
+        // Este método permite que campos determinados dentro de la base de datos sean únicos
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            // Se hacen únicos los capos de CodigoEmpleado para AdministradorSistema, Gerente y Auxiliar
+            builder.Entity<AdministradorSistema>()
+                .HasIndex(u => u.CodigoEmpleado)
+                .IsUnique();
+            builder.Entity<Gerente>()
+                .HasIndex(u => u.CodigoEmpleado)
+                .IsUnique();
+            builder.Entity<Auxiliar>()
+                .HasIndex(u => u.CodigoEmpleado)
+                .IsUnique();
         }
     }
 }

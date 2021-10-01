@@ -6,6 +6,7 @@ namespace ParkinLot.App.Consola
 {
     class Program
     {
+        // private static NombreIRepositorio _nombreRepositorio = new NombreRespositorio(new Persistencia.AppContexto());
         static void Main(string[] args)
         {
             AppContexto _appContexto = new AppContexto(); // Se crea conexión con la base de datos a través del AppContexto
@@ -85,7 +86,7 @@ namespace ParkinLot.App.Consola
                     HoraInicio = new DateTime(2021, 09, 29, 8, 0, 0),
                     HoraFin = new DateTime(2021, 09, 29, 17, 0, 0),
                     Vehiculo = objVehiculo,
-                    EspacioParquedero = objEspacioParqueadero
+                    EspacioParqueadero = objEspacioParqueadero
                 };
                 _appContexto.Add(objReserva);
                 _appContexto.SaveChanges();

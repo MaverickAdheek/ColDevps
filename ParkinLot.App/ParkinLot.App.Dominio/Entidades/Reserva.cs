@@ -9,7 +9,7 @@ namespace ParkinLot.App.Dominio
         public DateTime HoraInicio { get; set; }
         public DateTime HoraFin { get; set; }
         public Vehiculo Vehiculo { get; set; }
-        public EspacioParqueadero EspacioParquedero { get; set; }
+        public EspacioParqueadero EspacioParqueadero { get; set; }
         
     }
 }

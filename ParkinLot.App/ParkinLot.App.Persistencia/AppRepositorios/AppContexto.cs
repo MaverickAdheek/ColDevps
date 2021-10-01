@@ -29,7 +29,13 @@ namespace ParkinLot.App.Persistencia
         // Este método permite que campos determinados dentro de la base de datos sean únicos
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            // Se hacen únicos los capos de CodigoEmpleado para AdministradorSistema, Gerente y Auxiliar
+            /* Se hacen únicos los capos de CodigoEmpleado para AdministradorSistema, Gerente y Auxiliar. El Documento y el Usuario para todas las personas. La Placa para los Vehiculos */
+            builder.Entity<Persona>()
+                .HasIndex(u => u.Documento)
+                .IsUnique();
+            builder.Entity<Persona>()
+                .HasIndex(u => u.Usuario)
+                .IsUnique();
             builder.Entity<AdministradorSistema>()
                 .HasIndex(u => u.CodigoEmpleado)
                 .IsUnique();
@@ -38,6 +44,9 @@ namespace ParkinLot.App.Persistencia
                 .IsUnique();
             builder.Entity<Auxiliar>()
                 .HasIndex(u => u.CodigoEmpleado)
+                .IsUnique();
+            builder.Entity<Vehiculo>()
+                .HasIndex(u => u.Placa)
                 .IsUnique();
         }
     }

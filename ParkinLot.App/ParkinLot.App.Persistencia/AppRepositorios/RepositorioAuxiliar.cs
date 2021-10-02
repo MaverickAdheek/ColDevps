@@ -14,9 +14,14 @@ namespace ParkinLot.App.Persistencia.AppRepositorios
 
         public Auxiliar AddAuxiliar(Auxiliar auxiliar)
         {
+            try{
             var auxiliarNuevo = _appContexto.Auxiliares.Add(auxiliar);
             _appContexto.SaveChanges();
             return auxiliarNuevo.Entity;
+            }
+            catch{
+                return null;
+            }
         }
 
         public void DeleteAuxiliar(string codigoEmpleado)

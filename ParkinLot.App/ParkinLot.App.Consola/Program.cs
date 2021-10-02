@@ -1,6 +1,7 @@
 ﻿using System;
 using ParkinLot.App.Dominio;
 using ParkinLot.App.Persistencia;
+using ParkinLot.App.Persistencia.AppRepositorios;
 
 namespace ParkinLot.App.Consola
 {
@@ -9,13 +10,66 @@ namespace ParkinLot.App.Consola
         // private static NombreIRepositorio _nombreRepositorio = new NombreRespositorio(new Persistencia.AppContexto());
         static void Main(string[] args)
         {
-            AppContexto _appContexto = new AppContexto(); // Se crea conexión con la base de datos a través del AppContexto
+            //AppContexto _appContexto = new AppContexto(); // Se crea conexión con la base de datos a través del AppContexto
 
-            Console.WriteLine("Ingrese 1 si desea agregar los datos: ");
-            int opcion = Convert.ToInt32(Console.ReadLine());
-            if (opcion == 1)
+            int opcion = 0;
+            while (opcion != -1)
             {
-                AdministradorSistema objAdministradorSistema = new AdministradorSistema()
+                Console.WriteLine("Seleccione una opción: ");
+                Console.WriteLine("1. Ingrese un Auxiliar.");
+                Console.WriteLine("2. Consulte un Auxiliar");
+                Console.WriteLine("3. Escriba -1 para salir.");
+                opcion = Convert.ToInt32(Console.ReadLine());
+
+                IRepositorioAuxiliar _repoAuxiliar = new RepositorioAuxiliar(new AppContexto());
+
+                switch (opcion)
+                {
+                    case 1:
+                        Console.WriteLine("Ingrese los nombres del auxiliar:");
+                        string nombres = Console.ReadLine();
+
+                        Console.WriteLine("Ingreso los apellidos del auxiliar:");
+                        string apellidos = Console.ReadLine();
+
+                        Console.WriteLine("Ingrese el número de cédula del auxiliar:");
+                        string documento = Console.ReadLine();
+
+                        Console.WriteLine("Ingrese el usuario del auxiliar:");
+                        string usuario = Console.ReadLine();
+
+                        Console.WriteLine("Ingrese la contraseña del auxiliar:");
+                        string contrasena = Console.ReadLine();
+
+                        Console.WriteLine("Ingrese el código del empleado:");
+                        string codigo = Console.ReadLine();
+
+                        Auxiliar objAuxiliar = new Auxiliar()
+                        {
+                            Nombres = nombres,
+                            Apellidos = apellidos,
+                            Documento = documento,
+                            Usuario = usuario,
+                            Contrasena = contrasena,
+                            CodigoEmpleado = codigo
+                        };
+
+                        var respuesta = _repoAuxiliar.AddAuxiliar(objAuxiliar);
+                        if (respuesta == null)
+                        {
+                            Console.WriteLine("Ha intentado agregar un auxiliar con un código que ya existe.");
+                        }
+                        break;
+
+                    case 2:
+                        Console.WriteLine("Ingrese el código del auxiliar que busca:");
+                        string codigoBusqueda = Console.ReadLine();
+                        var auxiliarEncontrado = _repoAuxiliar.GetAuxiliar(codigoBusqueda);
+                        Console.WriteLine(auxiliarEncontrado.Nombres + " " + auxiliarEncontrado.CodigoEmpleado);
+                        break;
+                }
+
+                /*AdministradorSistema objAdministradorSistema = new AdministradorSistema()
                 {
                     Nombres = "Leonardo",
                     Apellidos = "Morales Rodríguez",
@@ -37,15 +91,7 @@ namespace ParkinLot.App.Consola
                 };
                 _appContexto.Add(objGerente);
 
-                Auxiliar objAuxiliar = new Auxiliar()
-                {
-                    Nombres = "César",
-                    Apellidos = "Martínez",
-                    Documento = "147852",
-                    Usuario = "cema14",
-                    Contrasena = "zxc#$%",
-                    CodigoEmpleado = "003"
-                };
+                
                 _appContexto.Add(objAuxiliar);
 
                 DuenoVehiculo objDuenoVehiculo = new DuenoVehiculo()
@@ -89,7 +135,8 @@ namespace ParkinLot.App.Consola
                     EspacioParqueadero = objEspacioParqueadero
                 };
                 _appContexto.Add(objReserva);
-                _appContexto.SaveChanges();
+                _appContexto.SaveChanges();*/
+
             }
         }
     }

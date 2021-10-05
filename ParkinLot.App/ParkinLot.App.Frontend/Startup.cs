@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using ParkinLot.App.Persistencia;
 
 namespace ParkinLot.App.Frontend
 {
@@ -24,6 +25,20 @@ namespace ParkinLot.App.Frontend
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
+            AppContexto _appContexto = new AppContexto();
+
+            // Conexiones con los repositorios de cada entidad
+            services.AddSingleton<IRepositorioAdministradorSistema>(new RepositorioAdministradorSistema(_appContexto));
+            services.AddSingleton<IRepositorioAuxiliar>(new RepositorioAuxiliar(_appContexto));
+            services.AddSingleton<IRepositorioDuenoVehiculo>(new RepositorioDuenoVehiculo(_appContexto));
+            services.AddSingleton<IRepositorioEspacioParqueadero>(new RepositorioEspacioParqueadero(_appContexto));
+            services.AddSingleton<IRepositorioGerente>(new RepositorioGerente(_appContexto));
+            services.AddSingleton<IRepositorioReserva>(new RepositorioReserva(_appContexto));
+            services.AddSingleton<IRepositorioVehiculo>(new RepositorioVehiculo(_appContexto));
+
+            //services.AddSingleton<IRepositorioAdministradorSistema, RepositorioAdministradorSistema>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

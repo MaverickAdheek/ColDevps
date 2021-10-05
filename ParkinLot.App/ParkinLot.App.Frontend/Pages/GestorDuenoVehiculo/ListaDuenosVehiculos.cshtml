@@ -1,0 +1,35 @@
+﻿@page
+@model ParkinLot.App.Frontend.Pages.ListaDuenosVehiculosModel
+@{
+}
+<h1>Gestión de Clientes</h1>
+<p>En esta página podrás gestionar los Clientes</p>
+<a class="btn btn-primary table-btn" asp-page="./AgregarDuenoVehiculo">Agregar Cliente</a>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Nombres</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Documento</th>
+            <th scope="col">Usuario</th>
+            <th scope="col">Contraseña</th>
+            <th scope="col">Dirección</th>
+            <th scope="col">Teléfono</th>
+            <th scope="col">Fecha de nacimiento</th>
+        </tr>
+    </thead>
+    @foreach (var duenoVehiculo in Model.DuenosVehiculos)
+    {
+        <tr>
+            <td>@duenoVehiculo.Nombres</td>
+            <td>@duenoVehiculo.Apellidos</td>
+            <td>@duenoVehiculo.Documento</td>
+            <td>@duenoVehiculo.Usuario</td>
+            <td>@duenoVehiculo.Contrasena</td>
+            <td>@duenoVehiculo.Direccion</td>
+            <td>@duenoVehiculo.Telefono</td>
+            <td>@duenoVehiculo.FechaNacimiento</td>
+        </tr>
+
+    }
+</table>

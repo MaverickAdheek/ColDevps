@@ -1,0 +1,31 @@
+﻿@page
+@model ParkinLot.App.Frontend.Pages.ListaAuxiliaresModel
+@{
+}
+<h1>Gestión de auxiliares</h1>
+<p>En esta página podrás gestionar los auxiliares</p>
+<a class="btn btn-primary table-btn" asp-page="./AgregarAuxiliar">Agregar auxiliar</a> <!-- Botón para agregar un auxiliar -->
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Nombres</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Documento</th>
+            <th scope="col">Usuario</th>
+            <th scope="col">Contraseña</th>
+            <th scope="col">Código empleado</th>
+        </tr>
+    </thead>
+    @foreach (var auxiliar in Model.Auxiliares)
+    {
+        <tr>
+            <td>@auxiliar.Nombres</td>
+            <td>@auxiliar.Apellidos</td>
+            <td>@auxiliar.Documento</td>
+            <td>@auxiliar.Usuario</td>
+            <td>@auxiliar.Contrasena</td>
+            <td>@auxiliar.CodigoEmpleado</td>
+        </tr>
+
+    }
+</table>

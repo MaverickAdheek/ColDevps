@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ParkinLot.App.Persistencia;
 
 namespace ParkinLot.App.Persistencia.Migrations
 {
-    [DbContext(typeof(AppContext))]
-    partial class AppContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(AppContexto))]
+    [Migration("20211003004154_Inicial")]
+    partial class Inicial
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -55,15 +57,23 @@ namespace ParkinLot.App.Persistencia.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Documento")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Nombres")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Usuario")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("Documento")
+                        .IsUnique()
+                        .HasFilter("[Documento] IS NOT NULL");
+
+                    b.HasIndex("Usuario")
+                        .IsUnique()
+                        .HasFilter("[Usuario] IS NOT NULL");
 
                     b.ToTable("Personas");
 
@@ -77,7 +87,7 @@ namespace ParkinLot.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<int?>("EspacioParquederoId")
+                    b.Property<int?>("EspacioParqueaderoId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("FechaReserva")
@@ -94,7 +104,7 @@ namespace ParkinLot.App.Persistencia.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("EspacioParquederoId");
+                    b.HasIndex("EspacioParqueaderoId");
 
                     b.HasIndex("VehiculoId");
 
@@ -124,7 +134,7 @@ namespace ParkinLot.App.Persistencia.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Placa")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("TipoVehiculo")
                         .HasColumnType("int");
@@ -132,6 +142,10 @@ namespace ParkinLot.App.Persistencia.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("DuenoVehiculoId");
+
+                    b.HasIndex("Placa")
+                        .IsUnique()
+                        .HasFilter("[Placa] IS NOT NULL");
 
                     b.ToTable("Vehiculos");
                 });
@@ -198,24 +212,26 @@ namespace ParkinLot.App.Persistencia.Migrations
 
             modelBuilder.Entity("ParkinLot.App.Dominio.Reserva", b =>
                 {
-                    b.HasOne("ParkinLot.App.Dominio.EspacioParqueadero", "EspacioParquedero")
+                    b.HasOne("ParkinLot.App.Dominio.EspacioParqueadero", "EspacioParqueadero")
                         .WithMany()
-                        .HasForeignKey("EspacioParquederoId");
+                        .HasForeignKey("EspacioParqueaderoId");
 
                     b.HasOne("ParkinLot.App.Dominio.Vehiculo", "Vehiculo")
                         .WithMany()
                         .HasForeignKey("VehiculoId");
 
-                    b.Navigation("EspacioParquedero");
+                    b.Navigation("EspacioParqueadero");
 
                     b.Navigation("Vehiculo");
                 });
 
             modelBuilder.Entity("ParkinLot.App.Dominio.Vehiculo", b =>
                 {
-                    b.HasOne("ParkinLot.App.Dominio.DuenoVehiculo", null)
+                    b.HasOne("ParkinLot.App.Dominio.DuenoVehiculo", "DuenoVehiculo")
                         .WithMany("Vehiculos")
                         .HasForeignKey("DuenoVehiculoId");
+
+                    b.Navigation("DuenoVehiculo");
                 });
 
             modelBuilder.Entity("ParkinLot.App.Dominio.DuenoVehiculo", b =>

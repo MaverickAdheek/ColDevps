@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System.Linq;
 using ParkinLot.App.Dominio;
 
-namespace ParkinLot.App.Persistencia.AppRepositorios
+namespace ParkinLot.App.Persistencia
 {
-    public class RepositorioReserva
+    public class RepositorioReserva : IRepositorioReserva
     {
         private readonly AppContexto _appContexto; // Conexión con el contexto
         public RepositorioReserva(AppContexto appContext) // Constructor de este repositorio

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using ParkinLot.App.Dominio;
 
-namespace ParkinLot.App.Persistencia.AppRepositorios
+namespace ParkinLot.App.Persistencia
 {
     public class RepositorioEspacioParqueadero : IRepositorioEspacioParqueadero
     {

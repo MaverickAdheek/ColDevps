@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using ParkinLot.App.Dominio;
 
-namespace ParkinLot.App.Persistencia.AppRepositorios
+namespace ParkinLot.App.Persistencia
 {
     public interface IRepositorioGerente
     {

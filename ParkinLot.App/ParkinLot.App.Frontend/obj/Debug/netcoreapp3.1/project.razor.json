@@ -14412,11 +14412,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Frontend\\Pages\\GestorAuxiliares\\EditarAuxiliar.cshtml",
-      "TargetPath": "Pages\\GestorAuxiliares\\EditarAuxiliar.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Frontend\\Pages\\GestorVehiculo\\BuscarVehiculo.cshtml",
       "TargetPath": "Pages\\GestorVehiculo\\BuscarVehiculo.cshtml",
       "FileKind": "mvc"
@@ -14427,8 +14422,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Frontend\\Pages\\GestorAuxiliares\\EliminarAuxiliar.cshtml",
-      "TargetPath": "Pages\\GestorAuxiliares\\EliminarAuxiliar.cshtml",
+      "FilePath": "c:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Frontend\\Pages\\GestorAuxiliar\\ListaAuxiliares.cshtml",
+      "TargetPath": "Pages\\GestorAuxiliar\\ListaAuxiliares.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14454,6 +14449,16 @@
     {
       "FilePath": "c:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Frontend\\Pages\\GestorVehiculo\\ListaVehiculos.cshtml",
       "TargetPath": "Pages\\GestorVehiculo\\ListaVehiculos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Frontend\\Pages\\GestorAuxiliar\\EliminarAuxiliar.cshtml",
+      "TargetPath": "Pages\\GestorAuxiliar\\EliminarAuxiliar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Frontend\\Pages\\GestorAuxiliar\\DetalleAuxiliar.cshtml",
+      "TargetPath": "Pages\\GestorAuxiliar\\DetalleAuxiliar.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14562,8 +14567,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Frontend\\Pages\\GestorAuxiliares\\AgregarAuxiliar.cshtml",
-      "TargetPath": "Pages\\GestorAuxiliares\\AgregarAuxiliar.cshtml",
+      "FilePath": "c:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Frontend\\Pages\\GestorAuxiliar\\BuscarAuxiliar.cshtml",
+      "TargetPath": "Pages\\GestorAuxiliar\\BuscarAuxiliar.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14587,18 +14592,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Frontend\\Pages\\GestorAuxiliares\\BuscarAuxiliar.cshtml",
-      "TargetPath": "Pages\\GestorAuxiliares\\BuscarAuxiliar.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Frontend\\Pages\\GestorAuxiliares\\ListaAuxiliares.cshtml",
-      "TargetPath": "Pages\\GestorAuxiliares\\ListaAuxiliares.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Frontend\\Pages\\GestorDuenoVehiculo\\EditarDuenoVehiculo.cshtml",
       "TargetPath": "Pages\\GestorDuenoVehiculo\\EditarDuenoVehiculo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Frontend\\Pages\\GestorAuxiliar\\AgregarAuxiliar.cshtml",
+      "TargetPath": "Pages\\GestorAuxiliar\\AgregarAuxiliar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Frontend\\Pages\\GestorAuxiliar\\EditarAuxiliar.cshtml",
+      "TargetPath": "Pages\\GestorAuxiliar\\EditarAuxiliar.cshtml",
       "FileKind": "mvc"
     },
     {

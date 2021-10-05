@@ -12,7 +12,7 @@ namespace ParkinLot.App.Frontend.Pages
     public class AgregarAuxiliarModel : PageModel
     {
         private readonly IRepositorioAuxiliar repositorioAuxiliar; // Conexión con el repositorio
-        public Auxiliar Auxiliar { get; set; } // Propiedad en la que se guardará el Auxiliare agregado
+        public Auxiliar Auxiliar { get; set; } // Propiedad en la que se guardará el Auxiliar agregado
 
         // Constructor
         public AgregarAuxiliarModel(IRepositorioAuxiliar repositorioAuxiliar)
@@ -21,6 +21,17 @@ namespace ParkinLot.App.Frontend.Pages
         }
         public void OnGet()
         {
+        }
+
+        public IActionResult OnPost(Auxiliar auxiliar)
+        {
+            try {
+            repositorioAuxiliar.AddAuxiliar(auxiliar);
+            return RedirectToPage("./ListaAuxiliares");
+            }
+            catch {
+                return RedirectToPage("../Error");
+            }
         }
     }
 }

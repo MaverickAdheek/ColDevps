@@ -115,3 +115,4 @@ C:\Users\Usuario\Documents\MinTIC\FP\Cycle3\CycleProyect\Project\ColDevps\Parkin
 C:\Users\Usuario\Documents\MinTIC\FP\Cycle3\CycleProyect\Project\ColDevps\ParkinLot.App\ParkinLot.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\GestorAuxiliar\EditarAuxiliar.cshtml.g.cs
 C:\Users\Usuario\Documents\MinTIC\FP\Cycle3\CycleProyect\Project\ColDevps\ParkinLot.App\ParkinLot.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\GestorAuxiliar\EliminarAuxiliar.cshtml.g.cs
 C:\Users\Usuario\Documents\MinTIC\FP\Cycle3\CycleProyect\Project\ColDevps\ParkinLot.App\ParkinLot.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\GestorAuxiliar\ListaAuxiliares.cshtml.g.cs
+C:\Users\Usuario\Documents\MinTIC\FP\Cycle3\CycleProyect\Project\ColDevps\ParkinLot.App\ParkinLot.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\GestorAuxiliar\DetalleAuxiliar.cshtml.g.cs

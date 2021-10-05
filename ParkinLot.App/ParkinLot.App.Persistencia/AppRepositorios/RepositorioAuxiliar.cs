@@ -46,7 +46,7 @@ namespace ParkinLot.App.Persistencia
 
         public Auxiliar UpdateAuxiliar(Auxiliar auxiliar)
         {
-            var auxiliarEncontrado = _appContexto.Auxiliares.FirstOrDefault(a => a.Id == auxiliar.Id);
+            var auxiliarEncontrado = _appContexto.Auxiliares.FirstOrDefault(a => a.CodigoEmpleado == auxiliar.CodigoEmpleado);
             if (auxiliarEncontrado != null)
             {
                 auxiliarEncontrado.Nombres = auxiliar.Nombres;

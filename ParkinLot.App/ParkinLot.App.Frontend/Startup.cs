@@ -37,8 +37,6 @@ namespace ParkinLot.App.Frontend
             services.AddSingleton<IRepositorioReserva>(new RepositorioReserva(_appContexto));
             services.AddSingleton<IRepositorioVehiculo>(new RepositorioVehiculo(_appContexto));
 
-            //services.AddSingleton<IRepositorioAdministradorSistema, RepositorioAdministradorSistema>();
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

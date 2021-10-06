@@ -27,7 +27,6 @@ namespace ParkinLot.App.Frontend.Pages
         public IActionResult OnPost(Auxiliar auxiliar)
         {
             try {
-            Console.WriteLine(auxiliar);
             repositorioAuxiliar.UpdateAuxiliar(auxiliar);
             return RedirectToPage("./ListaAuxiliares");
             }

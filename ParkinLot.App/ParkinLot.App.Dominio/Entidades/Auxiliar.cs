@@ -4,6 +4,6 @@ namespace ParkinLot.App.Dominio
 {
     public class Auxiliar : Persona
     {
-        public String CodigoEmpleado { get; set; }
+        public string CodigoEmpleado { get; set; }
     }
 }

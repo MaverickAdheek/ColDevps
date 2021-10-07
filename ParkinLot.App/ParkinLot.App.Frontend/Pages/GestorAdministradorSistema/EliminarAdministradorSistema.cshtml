@@ -2,3 +2,11 @@
 @model ParkinLot.App.Frontend.Pages.EliminarAdministradorSistemaModel
 @{
 }
+<h1>Eliminar administrador sistema @Model.AdministradorSistema.Nombres</h1>
+<form method="post" class="mt-3">
+    <input hidden asp-for="AdministradorSistema.CodigoEmpleado">
+    <div class="form-group row">
+        <button type="submit" class="btn btn-primary">Eliminar</button>
+        <a asp-page="./ListaAdministradoresSistema" class="btn btn-primary">Cancelar</a>
+    </div>
+</form>

@@ -2,3 +2,40 @@
 @model ParkinLot.App.Frontend.Pages.EditarAdministradorSistemaModel
 @{
 }
+<h1>Editar administrador sistema</h1>
+<form method="post" class="mt-3">
+    <div class="form-group row">
+        <label asp-for="AdministradorSistema.Nombres" class="col-sm-2">Nombres</label>
+        <input asp-for="AdministradorSistema.Nombres" class="from-control" >
+        <span class="text-danger" asp-validation-for="AdministradorSistema.Nombres"></span>
+    </div>
+    <div class="form-group row">
+        <label asp-for="AdministradorSistema.Apellidos" class="col-sm-2">Apellidos</label>
+        <input asp-for="AdministradorSistema.Apellidos" class="from-control" >
+        <span class="text-danger" asp-validation-for="AdministradorSistema.Apellidos"></span>
+    </div>
+    <div class="form-group row">
+        <label asp-for="AdministradorSistema.Documento" class="col-sm-2">Documento</label>
+        <input asp-for="AdministradorSistema.Documento" class="from-control"  required>
+        <span class="text-danger" asp-validation-for="AdministradorSistema.Documento"></span>
+    </div>
+    <div class="form-group row">
+        <label asp-for="AdministradorSistema.Usuario" class="col-sm-2">Usuario</label>
+        <input asp-for="AdministradorSistema.Usuario" class="from-control"  required>
+        <span class="text-danger" asp-validation-for="AdministradorSistema.Usuario"></span>
+    </div>
+    <div class="form-group row">
+        <label asp-for="AdministradorSistema.Contrasena" class="col-sm-2">Contraseña</label>
+        <input asp-for="AdministradorSistema.Contrasena" class="from-control"  required>
+        <span class="text-danger" asp-validation-for="AdministradorSistema.Contrasena"></span>
+    </div>
+    <div class="form-group row">
+        <label asp-for="AdministradorSistema.CodigoEmpleado" class="col-sm-2">Código empleado</label>
+        <input asp-for="AdministradorSistema.CodigoEmpleado" class="from-control"  required>
+        <span class="text-danger" asp-validation-for="AdministradorSistema.CodigoEmpleado"></span>
+    </div>
+    <div class="form-group row">
+        <button type="submit" class="btn btn-primary">Editar</button>
+        <a asp-page="./ListaAdministradoresSistema" class="btn btn-primary">Cancelar</a>
+    </div>
+</form>

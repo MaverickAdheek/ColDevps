@@ -42,7 +42,7 @@ namespace ParkinLot.App.Persistencia
 
         public AdministradorSistema UpdateAdministradorSistema(AdministradorSistema administradorSistema)
         {
-            var administradorSistemaEncontrado = _appContexto.AdministradoresSistema.FirstOrDefault(aS => aS.Id == administradorSistema.Id);
+            var administradorSistemaEncontrado = _appContexto.AdministradoresSistema.FirstOrDefault(aS => aS.CodigoEmpleado == administradorSistema.CodigoEmpleado);
             if (administradorSistemaEncontrado != null)
             {
                 administradorSistemaEncontrado.Nombres = administradorSistema.Nombres;

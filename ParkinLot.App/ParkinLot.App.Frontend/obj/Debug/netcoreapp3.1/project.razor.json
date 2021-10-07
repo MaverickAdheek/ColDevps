@@ -14472,6 +14472,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Frontend\\Pages\\GestorAdministradorSistema\\ListaAdministradoresSistema.cshtml",
+      "TargetPath": "Pages\\GestorAdministradorSistema\\ListaAdministradoresSistema.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Frontend\\Pages\\GestorGerente\\AgregarGerente.cshtml",
       "TargetPath": "Pages\\GestorGerente\\AgregarGerente.cshtml",
       "FileKind": "mvc"

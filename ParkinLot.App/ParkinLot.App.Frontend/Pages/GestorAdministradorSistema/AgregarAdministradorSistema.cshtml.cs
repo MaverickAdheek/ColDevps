@@ -22,5 +22,16 @@ namespace ParkinLot.App.Frontend.Pages
         public void OnGet()
         {
         }
+
+        public IActionResult OnPost(AdministradorSistema administradorSistema)
+        {
+            try {
+                repositorioAdministradorSistema.AddAdministradorSistema(administradorSistema);
+                return RedirectToPage("./ListaAdministradoresSistema");
+            }
+            catch {
+                return RedirectToPage("../Error");
+            }
+        }
     }
 }

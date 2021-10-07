@@ -41,7 +41,7 @@ namespace ParkinLot.App.Persistencia
 
         public Gerente UpdateGerente(Gerente gerente)
         {
-            var gerenteEncontrado = _appContexto.Gerentes.FirstOrDefault(g => g.Id == gerente.Id);
+            var gerenteEncontrado = _appContexto.Gerentes.FirstOrDefault(g => g.CodigoEmpleado == gerente.CodigoEmpleado);
             if (gerenteEncontrado != null)
             {
                 gerenteEncontrado.Nombres = gerente.Nombres;

@@ -1,0 +1,36 @@
+﻿@page
+@model ParkinLot.App.Frontend.Pages.ListaAdministradoresSistemaModel
+@{
+}
+<h1>Gestión de administradores del sistema</h1>
+<p>En esta página podrás gestionar a los administradores del sistema</p>
+<a class="btn btn-primary table-btn" asp-page="./AgregarAdministradorSistema">Agregar administrador sistema</a>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Nombres</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Documento</th>
+            <th scope="col">Usuario</th>
+            <th scope="col">Contraseña</th>
+            <th scope="col">Código empleado</th>
+            <th scope="col">Acciones</th>
+        </tr>
+    </thead>
+    @foreach (var administrador in Model.AdministradoresSistema)
+    {
+        <tr>
+            <td>@administrador.Nombres</td>
+            <td>@administrador.Apellidos</td>
+            <td>@administrador.Documento</td>
+            <td>@administrador.Usuario</td>
+            <td>@administrador.Contrasena</td>
+            <td>@administrador.CodigoEmpleado</td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./EditarAdministradorSistema" asp-route-CodigoEmpleado="@administrador.CodigoEmpleado">Editar</a>
+                <br>
+                <a class="btn btn-primary table-btn" asp-page="./EliminarAdministradorSistema" asp-route-CodigoEmpleado="@administrador.CodigoEmpleado">Eliminar</a>
+            </td>
+        </tr>
+    }
+</table>

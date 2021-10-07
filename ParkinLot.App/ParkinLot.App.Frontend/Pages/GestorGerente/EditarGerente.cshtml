@@ -2,3 +2,40 @@
 @model ParkinLot.App.Frontend.Pages.EditarGerenteModel
 @{
 }
+<h1>Editar Gerente</h1>
+<form method="post" class="mt-3">
+    <div class="form-group row">
+        <label asp-for="Gerente.Nombres" class="col-sm-2">Nombres</label>
+        <input asp-for="Gerente.Nombres" class="from-control">
+        <span class="text-danger" asp-validation-for="Gerente.Nombres"></span>
+    </div>
+    <div class="form-group row">
+        <label asp-for="Gerente.Apellidos" class="col-sm-2">Apellidos</label>
+        <input asp-for="Gerente.Apellidos" class="from-control">
+        <span class="text-danger" asp-validation-for="Gerente.Apellidos"></span>
+    </div>
+    <div class="form-group row">
+        <label asp-for="Gerente.Documento" class="col-sm-2">Documento</label>
+        <input asp-for="Gerente.Documento" class="from-control" required>
+        <span class="text-danger" asp-validation-for="Gerente.Documento"></span>
+    </div>
+    <div class="form-group row">
+        <label asp-for="Gerente.Usuario" class="col-sm-2">Usuario</label>
+        <input asp-for="Gerente.Usuario" class="from-control" required>
+        <span class="text-danger" asp-validation-for="Gerente.Usuario"></span>
+    </div>
+    <div class="form-group row">
+        <label asp-for="Gerente.Contrasena" class="col-sm-2">Contraseña</label>
+        <input asp-for="Gerente.Contrasena" class="from-control" required>
+        <span class="text-danger" asp-validation-for="Gerente.Contrasena"></span>
+    </div>
+    <div class="form-group row">
+        <label asp-for="Gerente.CodigoEmpleado" class="col-sm-2">Código empleado</label>
+        <input asp-for="Gerente.CodigoEmpleado" class="from-control" required>
+        <span class="text-danger" asp-validation-for="Gerente.CodigoEmpleado"></span>
+    </div>
+    <div class="form-group row">
+        <button type="submit" class="btn btn-primary">Editar</button>
+        <a asp-page="./ListaGerentes" class="btn btn-primary">Cancelar</a>
+    </div>
+</form>

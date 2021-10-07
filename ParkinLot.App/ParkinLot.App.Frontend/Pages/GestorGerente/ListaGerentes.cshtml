@@ -14,6 +14,7 @@
             <th scope="col">Usuario</th>
             <th scope="col">Contraseña</th>
             <th scope="col">Código empleado</th>
+            <th scope="col">Acciones</th>
         </tr>
     </thead>
     @foreach (var gerente in Model.Gerentes)
@@ -25,6 +26,13 @@
             <td>@gerente.Usuario</td>
             <td>@gerente.Contrasena</td>
             <td>@gerente.CodigoEmpleado</td>
+            <th>
+                <a class="btn btn-primary table-btn" asp-page="./EditarGerente"
+                asp-route-CodigoEmpleado="@gerente.CodigoEmpleado">Editar</a>
+                <br>
+                <a class="btn btn-primary table-btn" asp-page="./EliminarGerente"
+                asp-route-CodigoEmpleado="@gerente.CodigoEmpleado">Eliminar</a>
+            </th>
         </tr>
 
     }

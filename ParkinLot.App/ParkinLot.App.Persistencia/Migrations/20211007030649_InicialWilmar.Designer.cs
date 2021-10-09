@@ -10,8 +10,8 @@ using ParkinLot.App.Persistencia;
 namespace ParkinLot.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContexto))]
-    [Migration("20211003004154_Inicial")]
-    partial class Inicial
+    [Migration("20211007030649_InicialWilmar")]
+    partial class InicialWilmar
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

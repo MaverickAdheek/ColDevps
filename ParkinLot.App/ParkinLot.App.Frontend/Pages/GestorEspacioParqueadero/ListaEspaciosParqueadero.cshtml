@@ -9,6 +9,7 @@
 <table class="table">
     <thead class="thead-dark">
         <tr>
+            <th scope="col">Numero Espacio</th>
             <th scope="col">Tipo vehículo</th>
             <th scope="col">Condición</th>
         </tr>
@@ -16,6 +17,7 @@
     @foreach (var espacioParqueadero in Model.EspaciosParqueadero)
     {
         <tr>
+            <td>@espacioParqueadero.Id</td>
             <td>@espacioParqueadero.TipoEspacio</td>
             <td>@espacioParqueadero.Ocupado</td>
         </tr>

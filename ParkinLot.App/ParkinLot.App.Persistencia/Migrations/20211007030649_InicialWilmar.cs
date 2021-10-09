@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace ParkinLot.App.Persistencia.Migrations
 {
-    public partial class Inicial : Migration
+    public partial class InicialWilmar : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

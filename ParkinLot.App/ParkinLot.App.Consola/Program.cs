@@ -1,7 +1,6 @@
 ﻿using System;
 using ParkinLot.App.Dominio;
 using ParkinLot.App.Persistencia;
-using ParkinLot.App.Persistencia.AppRepositorios;
 
 namespace ParkinLot.App.Consola
 {
@@ -10,7 +9,7 @@ namespace ParkinLot.App.Consola
         // private static NombreIRepositorio _nombreRepositorio = new NombreRespositorio(new Persistencia.AppContexto());
         static void Main(string[] args)
         {
-            //AppContexto _appContexto = new AppContexto(); // Se crea conexión con la base de datos a través del AppContexto
+            // AppContexto _appContexto = new AppContexto(); // Se crea conexión con la base de datos a través del AppContexto
 
             int opcion = 0;
             while (opcion != -1)

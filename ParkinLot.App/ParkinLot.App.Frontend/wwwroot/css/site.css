@@ -12,6 +12,15 @@ a {
   color: #0366d6;
 }
 
+h1{
+
+  color:#fff;
+
+}
+.btn-space {
+  margin-right: 5px;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #1b6ec2;
@@ -61,6 +70,45 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  
+  
+
+  
+}
+
+.bodycar{
+  background:url(../imagenes/carro.png) no-repeat center center fixed;
+  background-size:cover;
+  opacity: .90;
+}
+.bodyaux{
+  background:url(../imagenes/manub.jpg) no-repeat center center fixed;
+  background-size:cover;
+  opacity: .90;
+}
+
+.bodycli{
+  background:url(../imagenes/manub.jpg) no-repeat center center fixed;
+  background-size:cover;
+  opacity: .90;
+}
+.bodyesp{
+  background:url(../imagenes/parquin.jpg) no-repeat center center fixed;
+  background-size:cover;
+  opacity: .90;
+}
+
+.main-section{
+  margin:0 auto;
+  margin: top 25px;
+  padding:0;
+}
+.modal-content{
+  background-color:rgb(10, 10, 10) ;
+  opacity: .85;
+  padding: 0 20px;
+
+
 }
 .footer {
   position: absolute;
@@ -68,4 +116,5 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+  
 }

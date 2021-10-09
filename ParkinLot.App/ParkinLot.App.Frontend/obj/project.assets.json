@@ -5797,34 +5797,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\Cesar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Frontend\\ParkinLot.App.Frontend.csproj",
+      "projectUniqueName": "C:\\ColDevpss\\ParkinLot.App\\ParkinLot.App.Frontend\\ParkinLot.App.Frontend.csproj",
       "projectName": "ParkinLot.App.Frontend",
-      "projectPath": "C:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Frontend\\ParkinLot.App.Frontend.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Frontend\\obj\\",
+      "projectPath": "C:\\ColDevpss\\ParkinLot.App\\ParkinLot.App.Frontend\\ParkinLot.App.Frontend.csproj",
+      "packagesPath": "C:\\Users\\Cesar\\.nuget\\packages\\",
+      "outputPath": "C:\\ColDevpss\\ParkinLot.App\\ParkinLot.App.Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Cesar\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Dominio\\ParkinLot.App.Dominio.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Dominio\\ParkinLot.App.Dominio.csproj"
+            "C:\\ColDevpss\\ParkinLot.App\\ParkinLot.App.Dominio\\ParkinLot.App.Dominio.csproj": {
+              "projectPath": "C:\\ColDevpss\\ParkinLot.App\\ParkinLot.App.Dominio\\ParkinLot.App.Dominio.csproj"
             },
-            "C:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Persistencia\\ParkinLot.App.Persistencia.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Persistencia\\ParkinLot.App.Persistencia.csproj"
+            "C:\\ColDevpss\\ParkinLot.App\\ParkinLot.App.Persistencia\\ParkinLot.App.Persistencia.csproj": {
+              "projectPath": "C:\\ColDevpss\\ParkinLot.App\\ParkinLot.App.Persistencia\\ParkinLot.App.Persistencia.csproj"
             }
           }
         }

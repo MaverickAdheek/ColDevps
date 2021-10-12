@@ -4,7 +4,7 @@
 }
 <body class="bodyaux">
 <h1>Gestión de administradores del sistema</h1>
-<p>En esta página podrás gestionar a los administradores del sistema</p>
+<p class="p">En esta página podrás gestionar a los administradores del sistema</p>
 <a class="btn btn-primary table-btn" asp-page="./AgregarAdministradorSistema">Agregar administrador sistema</a>
 <table class="table">
     <thead class="thead-dark">
@@ -20,7 +20,7 @@
     </thead>
     @foreach (var administrador in Model.AdministradoresSistema)
     {
-        <tr>
+        <tr class="tr">
             <td>@administrador.Nombres</td>
             <td>@administrador.Apellidos</td>
             <td>@administrador.Documento</td>

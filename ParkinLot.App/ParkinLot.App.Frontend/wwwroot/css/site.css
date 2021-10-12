@@ -85,6 +85,13 @@ body {
   background-size:cover;
   opacity: .90;
 }
+
+.bienvenidos{
+  background:url(../imagenes/hola.png) no-repeat center center fixed;
+  background-size:cover;
+  opacity: .90;
+
+}
 .bodyaux{
   background:url(../imagenes/manub.jpg) no-repeat center center fixed;
   background-size:cover;

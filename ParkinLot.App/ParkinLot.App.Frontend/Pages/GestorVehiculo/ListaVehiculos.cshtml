@@ -6,7 +6,7 @@
 <h1>Gestión de vehículos</h1>
 <p>En esta página podrás gestionar los vehículos</p>
 <a class="btn btn-primary table-btn" asp-page="./AgregarVehiculo">Agregar vehículo</a>
-<table class="table">
+<table class="table" style="background-color:#33475b">
     <thead class="thead-dark">
         <tr>
             <th scope="col">Marca</th>
@@ -21,7 +21,7 @@
     </thead>
     @foreach (var vehiculo in Model.Vehiculos)
     {
-        <tr>
+        <tr class="tr">
             <td>@vehiculo.Marca</td>
             <td>@vehiculo.Modelo</td>
             <td>@vehiculo.Color</td>

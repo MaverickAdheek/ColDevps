@@ -19,7 +19,7 @@
         <tr class="tr">
             <td>@espacioParqueadero.Id</td>
             <td>@espacioParqueadero.TipoEspacio</td>
-            <td>@espacioParqueadero.Ocupado</td>
+            <td>@if (espacioParqueadero.Ocupado) { <p>Ocupado</p> } else { <p>Libre</p>  } </td>
         </tr>
 
     }

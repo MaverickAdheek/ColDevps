@@ -7263,32 +7263,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cesar\\.nuget\\packages\\": {}
+    "C:\\Users\\Wilmar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ColDevpss\\ParkinLot.App\\ParkinLot.App.Persistencia\\ParkinLot.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\MinTic\\DS_C3\\Final\\ColDevps\\ParkinLot.App\\ParkinLot.App.Persistencia\\ParkinLot.App.Persistencia.csproj",
       "projectName": "ParkinLot.App.Persistencia",
-      "projectPath": "C:\\ColDevpss\\ParkinLot.App\\ParkinLot.App.Persistencia\\ParkinLot.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\Cesar\\.nuget\\packages\\",
-      "outputPath": "C:\\ColDevpss\\ParkinLot.App\\ParkinLot.App.Persistencia\\obj\\",
+      "projectPath": "C:\\MinTic\\DS_C3\\Final\\ColDevps\\ParkinLot.App\\ParkinLot.App.Persistencia\\ParkinLot.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\Wilmar\\.nuget\\packages\\",
+      "outputPath": "C:\\MinTic\\DS_C3\\Final\\ColDevps\\ParkinLot.App\\ParkinLot.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Cesar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Wilmar\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\ColDevpss\\ParkinLot.App\\ParkinLot.App.Dominio\\ParkinLot.App.Dominio.csproj": {
-              "projectPath": "C:\\ColDevpss\\ParkinLot.App\\ParkinLot.App.Dominio\\ParkinLot.App.Dominio.csproj"
+            "C:\\MinTic\\DS_C3\\Final\\ColDevps\\ParkinLot.App\\ParkinLot.App.Dominio\\ParkinLot.App.Dominio.csproj": {
+              "projectPath": "C:\\MinTic\\DS_C3\\Final\\ColDevps\\ParkinLot.App\\ParkinLot.App.Dominio\\ParkinLot.App.Dominio.csproj"
             }
           }
         }
@@ -7338,16 +7337,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\ColDevpss\\ParkinLot.App\\ParkinLot.App.Persistencia\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

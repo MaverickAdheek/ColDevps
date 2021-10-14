@@ -12,6 +12,7 @@
             <th scope="col">Numero Espacio</th>
             <th scope="col">Tipo vehículo</th>
             <th scope="col">Condición</th>
+            <th scope="col">Acciones</th>
         </tr>
     </thead>
     @foreach (var espacioParqueadero in Model.EspaciosParqueadero)
@@ -20,6 +21,12 @@
             <td>@espacioParqueadero.Id</td>
             <td>@espacioParqueadero.TipoEspacio</td>
             <td>@if (espacioParqueadero.Ocupado) { <p>Ocupado</p> } else { <p>Libre</p>  } </td>
+            <td>
+                <div class="btn-group">
+                <a class="btn btn-secondary table-btn" class="btn-space" asp-page="./EliminarEspacioParqueadero"
+                asp-route-Id="@espacioParqueadero.Id">Eliminar</a>
+                </div>
+            </td>
         </tr>
 
     }

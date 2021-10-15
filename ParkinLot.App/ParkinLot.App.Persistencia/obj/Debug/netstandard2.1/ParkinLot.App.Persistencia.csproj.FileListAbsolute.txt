@@ -10,3 +10,14 @@ C:\Users\Usuario\Documents\MinTIC\FP\Cycle3\CycleProyect\Project\ColDevps\Parkin
 C:\Users\Usuario\Documents\MinTIC\FP\Cycle3\CycleProyect\Project\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.csproj.CopyComplete
 C:\Users\Usuario\Documents\MinTIC\FP\Cycle3\CycleProyect\Project\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.dll
 C:\Users\Usuario\Documents\MinTIC\FP\Cycle3\CycleProyect\Project\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.pdb
+C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\bin\Debug\netstandard2.1\ParkinLot.App.Persistencia.deps.json
+C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\bin\Debug\netstandard2.1\ParkinLot.App.Persistencia.dll
+C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\bin\Debug\netstandard2.1\ParkinLot.App.Persistencia.pdb
+C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\bin\Debug\netstandard2.1\ParkinLot.App.Dominio.dll
+C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\bin\Debug\netstandard2.1\ParkinLot.App.Dominio.pdb
+C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.csprojAssemblyReference.cache
+C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.AssemblyInfo.cs
+C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.csproj.CopyComplete
+C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.dll
+C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.pdb

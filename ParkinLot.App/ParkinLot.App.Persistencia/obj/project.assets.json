@@ -7263,19 +7263,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\maicol\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Persistencia\\ParkinLot.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\maicol\\Documents\\DesarrolloC#\\ColDevps\\ParkinLot.App\\ParkinLot.App.Persistencia\\ParkinLot.App.Persistencia.csproj",
       "projectName": "ParkinLot.App.Persistencia",
-      "projectPath": "C:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Persistencia\\ParkinLot.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Persistencia\\obj\\",
+      "projectPath": "C:\\Users\\maicol\\Documents\\DesarrolloC#\\ColDevps\\ParkinLot.App\\ParkinLot.App.Persistencia\\ParkinLot.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\maicol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\maicol\\Documents\\DesarrolloC#\\ColDevps\\ParkinLot.App\\ParkinLot.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\maicol\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -7286,8 +7286,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Dominio\\ParkinLot.App.Dominio.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Documents\\MinTIC\\FP\\Cycle3\\CycleProyect\\Project\\ColDevps\\ParkinLot.App\\ParkinLot.App.Dominio\\ParkinLot.App.Dominio.csproj"
+            "C:\\Users\\maicol\\Documents\\DesarrolloC#\\ColDevps\\ParkinLot.App\\ParkinLot.App.Dominio\\ParkinLot.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\maicol\\Documents\\DesarrolloC#\\ColDevps\\ParkinLot.App\\ParkinLot.App.Dominio\\ParkinLot.App.Dominio.csproj"
             }
           }
         }
@@ -7337,7 +7337,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.119\\RuntimeIdentifierGraph.json"
       }
     }
   }

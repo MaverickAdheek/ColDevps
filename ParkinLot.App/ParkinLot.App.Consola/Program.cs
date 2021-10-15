@@ -1,7 +1,6 @@
 ﻿using System;
 using ParkinLot.App.Dominio;
 using ParkinLot.App.Persistencia;
-using ParkinLot.App.Persistencia.AppRepositorios;
 
 namespace ParkinLot.App.Consola
 {

@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\maicol\\Documents\\DesarrolloC#\\ColDevps\\ParkinLot.App\\ParkinLot.App.Servicios\\ParkinLot.App.Servicios.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maicol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+    "C:\\MinTic\\DS_C3\\Final\\ColDevps\\ParkinLot.App\\ParkinLot.App.Servicios\\ParkinLot.App.Servicios.csproj": {}
+  },
+  "projects": {
+    "C:\\MinTic\\DS_C3\\Final\\ColDevps\\ParkinLot.App\\ParkinLot.App.Servicios\\ParkinLot.App.Servicios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MinTic\\DS_C3\\Final\\ColDevps\\ParkinLot.App\\ParkinLot.App.Servicios\\ParkinLot.App.Servicios.csproj",
+        "projectName": "ParkinLot.App.Servicios",
+        "projectPath": "C:\\MinTic\\DS_C3\\Final\\ColDevps\\ParkinLot.App\\ParkinLot.App.Servicios\\ParkinLot.App.Servicios.csproj",
+        "packagesPath": "C:\\Users\\Wilmar\\.nuget\\packages\\",
+        "outputPath": "C:\\MinTic\\DS_C3\\Final\\ColDevps\\ParkinLot.App\\ParkinLot.App.Servicios\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Wilmar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 8588e88cd12902871c44169d2d3f65020c687755
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -53,7 +70,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.119\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
+>>>>>>> 8588e88cd12902871c44169d2d3f65020c687755
         }
       }
     }

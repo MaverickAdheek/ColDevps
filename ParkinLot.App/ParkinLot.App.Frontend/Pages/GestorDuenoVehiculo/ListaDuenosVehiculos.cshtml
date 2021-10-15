@@ -2,10 +2,11 @@
 @model ParkinLot.App.Frontend.Pages.ListaDuenosVehiculosModel
 @{
 }
+<body class="bodycli">
 <h1>Gestión de Clientes</h1>
 <p>En esta página podrás gestionar los Clientes</p>
 <a class="btn btn-primary table-btn" asp-page="./AgregarDuenoVehiculo">Agregar Cliente</a>
-<table class="table">
+<table class="table" style="background-color:#33475b">
     <thead class="thead-dark">
         <tr>
             <th scope="col">Nombres</th>
@@ -21,7 +22,7 @@
     </thead>
     @foreach (var duenoVehiculo in Model.DuenosVehiculos)
     {
-        <tr>
+        <tr class="tr">
             <td>@duenoVehiculo.Nombres</td>
             <td>@duenoVehiculo.Apellidos</td>
             <td>@duenoVehiculo.Documento</td>
@@ -39,3 +40,4 @@
 
     }
 </table>
+</body>

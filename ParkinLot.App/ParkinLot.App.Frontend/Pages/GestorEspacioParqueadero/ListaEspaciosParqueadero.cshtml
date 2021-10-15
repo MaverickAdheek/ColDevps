@@ -2,22 +2,33 @@
 @model ParkinLot.App.Frontend.Pages.ListaEspaciosParqueaderoModel
 @{
 }
+<body class="bodyesp">
 <h1>Gestión de espacios del parqueadero</h1>
 <p>En esta página podrás gestionar los espacios del paqrqueadero</p>
 <a class="btn btn-primary table-btn" asp-page="./AgregarEspacioParqueadero">Agregar espacio parqueadero</a>
-<table class="table">
+<table class="table" style="background-color:#33475b">
     <thead class="thead-dark">
         <tr>
+            <th scope="col">Numero Espacio</th>
             <th scope="col">Tipo vehículo</th>
             <th scope="col">Condición</th>
+            <th scope="col">Acciones</th>
         </tr>
     </thead>
     @foreach (var espacioParqueadero in Model.EspaciosParqueadero)
     {
-        <tr>
+        <tr class="tr">
+            <td>@espacioParqueadero.Id</td>
             <td>@espacioParqueadero.TipoEspacio</td>
-            <td>@espacioParqueadero.Ocupado</td>
+            <td>@if (espacioParqueadero.Ocupado) { <p>Ocupado</p> } else { <p>Libre</p>  } </td>
+            <td>
+                <div class="btn-group">
+                <a class="btn btn-secondary table-btn" class="btn-space" asp-page="./EliminarEspacioParqueadero"
+                asp-route-Id="@espacioParqueadero.Id">Eliminar</a>
+                </div>
+            </td>
         </tr>
 
     }
 </table>
+</body>

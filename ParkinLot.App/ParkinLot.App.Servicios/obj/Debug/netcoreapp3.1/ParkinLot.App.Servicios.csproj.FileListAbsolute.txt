@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -16,3 +17,25 @@ C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Serv
 C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\obj\Debug\netcoreapp3.1\staticwebassets\ParkinLot.App.Servicios.StaticWebAssets.xml
 C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\obj\Debug\netcoreapp3.1\ParkinLot.App.Servicios.dll
 C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\obj\Debug\netcoreapp3.1\ParkinLot.App.Servicios.pdb
+=======
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\bin\Debug\netcoreapp3.1\appsettings.json
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\bin\Debug\netcoreapp3.1\ParkinLot.App.Servicios.exe
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\bin\Debug\netcoreapp3.1\ParkinLot.App.Servicios.deps.json
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\bin\Debug\netcoreapp3.1\ParkinLot.App.Servicios.runtimeconfig.json
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\bin\Debug\netcoreapp3.1\ParkinLot.App.Servicios.runtimeconfig.dev.json
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\bin\Debug\netcoreapp3.1\ParkinLot.App.Servicios.dll
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\bin\Debug\netcoreapp3.1\ParkinLot.App.Servicios.pdb
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\obj\Debug\netcoreapp3.1\ParkinLot.App.Servicios.csprojAssemblyReference.cache
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\obj\Debug\netcoreapp3.1\ParkinLot.App.Servicios.AssemblyInfoInputs.cache
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\obj\Debug\netcoreapp3.1\ParkinLot.App.Servicios.AssemblyInfo.cs
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\obj\Debug\netcoreapp3.1\ParkinLot.App.Servicios.csproj.CoreCompileInputs.cache
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\obj\Debug\netcoreapp3.1\ParkinLot.App.Servicios.MvcApplicationPartsAssemblyInfo.cache
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\obj\Debug\netcoreapp3.1\ParkinLot.App.Servicios.RazorTargetAssemblyInfo.cache
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\obj\Debug\netcoreapp3.1\staticwebassets\ParkinLot.App.Servicios.StaticWebAssets.Manifest.cache
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\obj\Debug\netcoreapp3.1\staticwebassets\ParkinLot.App.Servicios.StaticWebAssets.xml
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\obj\Debug\netcoreapp3.1\ParkinLot.App.Servicios.dll
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\obj\Debug\netcoreapp3.1\ParkinLot.App.Servicios.pdb
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Servicios\obj\Debug\netcoreapp3.1\ParkinLot.App.Servicios.genruntimeconfig.cache
+>>>>>>> 8588e88cd12902871c44169d2d3f65020c687755

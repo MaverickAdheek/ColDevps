@@ -10,6 +10,7 @@ C:\Users\Usuario\Documents\MinTIC\FP\Cycle3\CycleProyect\Project\ColDevps\Parkin
 C:\Users\Usuario\Documents\MinTIC\FP\Cycle3\CycleProyect\Project\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.csproj.CopyComplete
 C:\Users\Usuario\Documents\MinTIC\FP\Cycle3\CycleProyect\Project\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.dll
 C:\Users\Usuario\Documents\MinTIC\FP\Cycle3\CycleProyect\Project\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.pdb
+<<<<<<< HEAD
 C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\bin\Debug\netstandard2.1\ParkinLot.App.Persistencia.deps.json
 C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\bin\Debug\netstandard2.1\ParkinLot.App.Persistencia.dll
 C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\bin\Debug\netstandard2.1\ParkinLot.App.Persistencia.pdb
@@ -21,3 +22,32 @@ C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Pers
 C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.csproj.CopyComplete
 C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.dll
 C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.pdb
+=======
+<<<<<<< HEAD
+C:\ColDevpss\ParkinLot.App\ParkinLot.App.Persistencia\bin\Debug\netstandard2.1\ParkinLot.App.Persistencia.deps.json
+C:\ColDevpss\ParkinLot.App\ParkinLot.App.Persistencia\bin\Debug\netstandard2.1\ParkinLot.App.Persistencia.dll
+C:\ColDevpss\ParkinLot.App\ParkinLot.App.Persistencia\bin\Debug\netstandard2.1\ParkinLot.App.Persistencia.pdb
+C:\ColDevpss\ParkinLot.App\ParkinLot.App.Persistencia\bin\Debug\netstandard2.1\ParkinLot.App.Dominio.dll
+C:\ColDevpss\ParkinLot.App\ParkinLot.App.Persistencia\bin\Debug\netstandard2.1\ParkinLot.App.Dominio.pdb
+C:\ColDevpss\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.csprojAssemblyReference.cache
+C:\ColDevpss\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.AssemblyInfoInputs.cache
+C:\ColDevpss\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.AssemblyInfo.cs
+C:\ColDevpss\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\ColDevpss\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.csproj.CopyComplete
+C:\ColDevpss\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.dll
+C:\ColDevpss\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.pdb
+=======
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\bin\Debug\netstandard2.1\ParkinLot.App.Persistencia.deps.json
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\bin\Debug\netstandard2.1\ParkinLot.App.Persistencia.dll
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\bin\Debug\netstandard2.1\ParkinLot.App.Persistencia.pdb
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\bin\Debug\netstandard2.1\ParkinLot.App.Dominio.dll
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\bin\Debug\netstandard2.1\ParkinLot.App.Dominio.pdb
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.csprojAssemblyReference.cache
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.AssemblyInfoInputs.cache
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.AssemblyInfo.cs
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.csproj.CopyComplete
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.dll
+C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.pdb
+>>>>>>> 7c3b33d8b46e4800595aa0285434400b6b89b9f0
+>>>>>>> 8588e88cd12902871c44169d2d3f65020c687755

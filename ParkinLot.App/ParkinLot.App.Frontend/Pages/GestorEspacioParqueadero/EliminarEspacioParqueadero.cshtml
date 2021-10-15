@@ -2,3 +2,11 @@
 @model ParkinLot.App.Frontend.Pages.EliminarEspacioParqueaderoModel
 @{
 }
+<h1>Eliminar Espacio Parqueadero @Model.espacioParqueadero.Id @Model.espacioParqueadero.TipoEspacio</h1>
+<form method="post" class="mt-3">
+    <input hidden asp-for="espacioParqueadero.Id">
+    <div class="form-group row">
+        <button type="submit" class="btn btn-primary">Eliminar</button>
+        <a asp-page="./ListaEspaciosParqueadero" class="btn btn-primary">Cancelar</a>
+    </div>
+</form>

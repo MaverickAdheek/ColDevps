@@ -2,10 +2,11 @@
 @model ParkinLot.App.Frontend.Pages.ListaReservasModel
 @{
 }
+<body class="bodyesp">
 <h1>Gestión de reservas</h1>
 <p>En esta página podrás gestionar las reservas</p>
 <a class="btn btn-primary table-btn" asp-page="./AgregarReserva">Agregar reserva</a>
-<table class="table">
+<table class="table" style="background-color:#33475b">
     <thead class="thead-dark">
         <tr>
             <th scope="col">Fecha reserva</th>
@@ -17,7 +18,7 @@
     </thead>
     @foreach (var reserva in Model.Reservas)
     {
-        <tr>
+        <tr class="tr">
             <td>@reserva.FechaReserva</td>
             <td>@reserva.HoraInicio</td>
             <td>@reserva.HoraFin</td>
@@ -27,3 +28,4 @@
 
     }
 </table>
+</body>

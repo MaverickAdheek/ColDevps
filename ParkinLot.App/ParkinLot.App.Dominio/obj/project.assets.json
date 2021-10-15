@@ -180,11 +180,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\maicol\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Wilmar\\.nuget\\packages\\": {}
+>>>>>>> 8588e88cd12902871c44169d2d3f65020c687755
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\maicol\\Documents\\DesarrolloC#\\ColDevps\\ParkinLot.App\\ParkinLot.App.Dominio\\ParkinLot.App.Dominio.csproj",
       "projectName": "ParkinLot.App.Dominio",
       "projectPath": "C:\\Users\\maicol\\Documents\\DesarrolloC#\\ColDevps\\ParkinLot.App\\ParkinLot.App.Dominio\\ParkinLot.App.Dominio.csproj",
@@ -193,6 +198,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\maicol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+      "projectUniqueName": "C:\\MinTic\\DS_C3\\Final\\ColDevps\\ParkinLot.App\\ParkinLot.App.Dominio\\ParkinLot.App.Dominio.csproj",
+      "projectName": "ParkinLot.App.Dominio",
+      "projectPath": "C:\\MinTic\\DS_C3\\Final\\ColDevps\\ParkinLot.App\\ParkinLot.App.Dominio\\ParkinLot.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\Wilmar\\.nuget\\packages\\",
+      "outputPath": "C:\\MinTic\\DS_C3\\Final\\ColDevps\\ParkinLot.App\\ParkinLot.App.Dominio\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Wilmar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 8588e88cd12902871c44169d2d3f65020c687755
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -231,7 +246,11 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.119\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
+>>>>>>> 8588e88cd12902871c44169d2d3f65020c687755
       }
     }
   }

@@ -2,11 +2,12 @@
 @model ParkinLot.App.Frontend.Pages.ListaAuxiliaresModel
 @{
 }
+<body class="bodyaux">
 <h1>Gestión de auxiliares</h1>
 <p>En esta página podrás gestionar los auxiliares</p>
 <a class="btn btn-primary table-btn" asp-page="./AgregarAuxiliar">Agregar auxiliar</a>
 <!-- Botón para agregar un auxiliar -->
-<table class="table">
+<table class="table" style="background-color:#33475b">
     <thead class="thead-dark">
         <tr>
             <th scope="col">Nombres</th>
@@ -20,7 +21,7 @@
     </thead>
     @foreach (var auxiliar in Model.Auxiliares)
     {
-        <tr>
+        <tr class="tr" >
             <td>@auxiliar.Nombres</td>
             <td>@auxiliar.Apellidos</td>
             <td>@auxiliar.Documento</td>
@@ -28,15 +29,18 @@
             <td>@auxiliar.Contrasena</td>
             <td>@auxiliar.CodigoEmpleado</td>
             <td>
-                <a class="btn btn-primary table-btn" asp-page="./DetalleAuxiliar"
+                <div class="btn-group">
+                <a class="btn btn-secondary table-btn"  class="btn-space" asp-page="./DetalleAuxiliar"
                 asp-route-CodigoEmpleado="@auxiliar.CodigoEmpleado">Ver más</a>
                 <br>
-                <a class="btn btn-primary table-btn" asp-page="./EditarAuxiliar"
+                <a class="btn btn-secondary table-btn" class="btn-space" asp-page="./EditarAuxiliar"
                 asp-route-CodigoEmpleado="@auxiliar.CodigoEmpleado">Editar</a>
-                <a class="btn btn-primary table-btn" asp-page="./EliminarAuxiliar"
+                <a class="btn btn-secondary table-btn" class="btn-space" asp-page="./EliminarAuxiliar"
                 asp-route-CodigoEmpleado="@auxiliar.CodigoEmpleado">Eliminar</a>
+                </div>
             </td>
         </tr>
 
     }
 </table>
+</body>

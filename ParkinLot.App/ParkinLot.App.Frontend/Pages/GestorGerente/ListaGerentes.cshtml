@@ -2,10 +2,11 @@
 @model ParkinLot.App.Frontend.Pages.ListaGerentesModel
 @{
 }
+<body class="bodycli">
 <h1>Gestión de gerentes</h1>
 <p>En esta página podrás gestionar los gerentes</p>
 <a class="btn btn-primary table-btn" asp-page="./AgregarGerente">Agregar gerente</a>
-<table class="table">
+<table class="table" style="background-color:#33475b">
     <thead class="thead-dark">
         <tr>
             <th scope="col">Nombres</th>
@@ -19,7 +20,7 @@
     </thead>
     @foreach (var gerente in Model.Gerentes)
     {
-        <tr>
+        <tr class="tr">
             <td>@gerente.Nombres</td>
             <td>@gerente.Apellidos</td>
             <td>@gerente.Documento</td>
@@ -27,13 +28,16 @@
             <td>@gerente.Contrasena</td>
             <td>@gerente.CodigoEmpleado</td>
             <th>
-                <a class="btn btn-primary table-btn" asp-page="./EditarGerente"
+                <div class="btn-group">
+                <a class="btn btn-secundary table-btn" asp-page="./EditarGerente"
                 asp-route-CodigoEmpleado="@gerente.CodigoEmpleado">Editar</a>
                 <br>
-                <a class="btn btn-primary table-btn" asp-page="./EliminarGerente"
+                <a class="btn btn-secundary table-btn" asp-page="./EliminarGerente"
                 asp-route-CodigoEmpleado="@gerente.CodigoEmpleado">Eliminar</a>
+                </div>
             </th>
         </tr>
 
     }
 </table>
+</body>

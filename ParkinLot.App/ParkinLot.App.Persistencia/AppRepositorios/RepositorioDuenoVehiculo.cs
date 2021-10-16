@@ -41,7 +41,7 @@ namespace ParkinLot.App.Persistencia
 
         public DuenoVehiculo UpdateDuenoVehiculo(DuenoVehiculo duenoVehiculo)
         {
-            var duenoVehiculoEncontrado = _appContexto.DuenosVehiculos.FirstOrDefault(dv => dv.Id == duenoVehiculo.Id);
+            var duenoVehiculoEncontrado = _appContexto.DuenosVehiculos.FirstOrDefault(dv => dv.Documento == duenoVehiculo.Documento);
             if (duenoVehiculoEncontrado != null)
             {
                 duenoVehiculoEncontrado.Nombres = duenoVehiculo.Nombres;

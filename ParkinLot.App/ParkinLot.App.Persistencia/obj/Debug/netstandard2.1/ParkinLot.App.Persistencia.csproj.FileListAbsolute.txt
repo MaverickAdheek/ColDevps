@@ -23,7 +23,6 @@ C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Pers
 C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.dll
 C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.pdb
 =======
-<<<<<<< HEAD
 C:\ColDevpss\ParkinLot.App\ParkinLot.App.Persistencia\bin\Debug\netstandard2.1\ParkinLot.App.Persistencia.deps.json
 C:\ColDevpss\ParkinLot.App\ParkinLot.App.Persistencia\bin\Debug\netstandard2.1\ParkinLot.App.Persistencia.dll
 C:\ColDevpss\ParkinLot.App\ParkinLot.App.Persistencia\bin\Debug\netstandard2.1\ParkinLot.App.Persistencia.pdb
@@ -36,7 +35,6 @@ C:\ColDevpss\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\P
 C:\ColDevpss\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.csproj.CopyComplete
 C:\ColDevpss\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.dll
 C:\ColDevpss\ParkinLot.App\ParkinLot.App.Persistencia\obj\Debug\netstandard2.1\ParkinLot.App.Persistencia.pdb
-=======
 C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\bin\Debug\netstandard2.1\ParkinLot.App.Persistencia.deps.json
 C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\bin\Debug\netstandard2.1\ParkinLot.App.Persistencia.dll
 C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Persistencia\bin\Debug\netstandard2.1\ParkinLot.App.Persistencia.pdb

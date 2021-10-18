@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "kpdMnLmN3gkbIHeGXIvlEg0VhCZg9PeUYzWdBhalxX3F4+KmdjFulO69RCfILL3b3tmJ+ooP5Q2H2GZ+i12czg==",
+  "dgSpecHash": "jQE8xFpjcCFvuSpd9L3EpFQUFpGmmSFf3ZwDhTyBIThWMqy1pyJJHm1OSTn/FN2eTcerh7HfWR7WaeP9atF0qg==",
   "success": true,
-  "projectFilePath": "C:\\MinTic\\DS_C3\\Final\\ColDevps\\ParkinLot.App\\ParkinLot.App.Dominio\\ParkinLot.App.Dominio.csproj",
+  "projectFilePath": "C:\\ColDevpss\\ParkinLot.App\\ParkinLot.App.Dominio\\ParkinLot.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Wilmar\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Wilmar\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Cesar\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Cesar\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

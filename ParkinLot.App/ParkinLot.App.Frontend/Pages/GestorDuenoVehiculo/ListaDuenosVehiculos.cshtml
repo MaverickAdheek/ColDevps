@@ -17,6 +17,7 @@
             <th scope="col">Dirección</th>
             <th scope="col">Teléfono</th>
             <th scope="col">Fecha de nacimiento</th>
+            <th scope="col">Acciones</th>
         </tr>
     </thead>
     @foreach (var duenoVehiculo in Model.DuenosVehiculos)
@@ -30,6 +31,11 @@
             <td>@duenoVehiculo.Direccion</td>
             <td>@duenoVehiculo.Telefono</td>
             <td>@duenoVehiculo.FechaNacimiento</td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./EditarDuenoVehiculo" asp-route-Documento="@duenoVehiculo.Documento">Editar</a>
+                <br>
+                <a class="btn btn-primary table-btn" asp-page="./EliminarDuenoVehiculo" asp-route-Documento="@duenoVehiculo.Documento">Eliminar</a>
+            </td>
         </tr>
 
     }

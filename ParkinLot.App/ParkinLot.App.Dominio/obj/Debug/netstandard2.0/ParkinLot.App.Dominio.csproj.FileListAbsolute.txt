@@ -8,6 +8,15 @@ C:\Users\Usuario\Documents\MinTIC\FP\Cycle3\CycleProyect\Project\ColDevps\Parkin
 C:\Users\Usuario\Documents\MinTIC\FP\Cycle3\CycleProyect\Project\ColDevps\ParkinLot.App\ParkinLot.App.Dominio\obj\Debug\netstandard2.0\ParkinLot.App.Dominio.dll
 C:\Users\Usuario\Documents\MinTIC\FP\Cycle3\CycleProyect\Project\ColDevps\ParkinLot.App\ParkinLot.App.Dominio\obj\Debug\netstandard2.0\ParkinLot.App.Dominio.pdb
 <<<<<<< HEAD
+C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Dominio\bin\Debug\netstandard2.0\ParkinLot.App.Dominio.deps.json
+C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Dominio\bin\Debug\netstandard2.0\ParkinLot.App.Dominio.dll
+C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Dominio\bin\Debug\netstandard2.0\ParkinLot.App.Dominio.pdb
+C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Dominio\obj\Debug\netstandard2.0\ParkinLot.App.Dominio.csprojAssemblyReference.cache
+C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Dominio\obj\Debug\netstandard2.0\ParkinLot.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Dominio\obj\Debug\netstandard2.0\ParkinLot.App.Dominio.AssemblyInfo.cs
+C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Dominio\obj\Debug\netstandard2.0\ParkinLot.App.Dominio.dll
+C:\Users\maicol\Documents\DesarrolloC#\ColDevps\ParkinLot.App\ParkinLot.App.Dominio\obj\Debug\netstandard2.0\ParkinLot.App.Dominio.pdb
+=======
 C:\ColDevpss\ParkinLot.App\ParkinLot.App.Dominio\bin\Debug\netstandard2.0\ParkinLot.App.Dominio.deps.json
 C:\ColDevpss\ParkinLot.App\ParkinLot.App.Dominio\bin\Debug\netstandard2.0\ParkinLot.App.Dominio.dll
 C:\ColDevpss\ParkinLot.App\ParkinLot.App.Dominio\bin\Debug\netstandard2.0\ParkinLot.App.Dominio.pdb
@@ -17,7 +26,6 @@ C:\ColDevpss\ParkinLot.App\ParkinLot.App.Dominio\obj\Debug\netstandard2.0\Parkin
 C:\ColDevpss\ParkinLot.App\ParkinLot.App.Dominio\obj\Debug\netstandard2.0\ParkinLot.App.Dominio.csproj.CoreCompileInputs.cache
 C:\ColDevpss\ParkinLot.App\ParkinLot.App.Dominio\obj\Debug\netstandard2.0\ParkinLot.App.Dominio.dll
 C:\ColDevpss\ParkinLot.App\ParkinLot.App.Dominio\obj\Debug\netstandard2.0\ParkinLot.App.Dominio.pdb
-=======
 C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Dominio\bin\Debug\netstandard2.0\ParkinLot.App.Dominio.deps.json
 C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Dominio\bin\Debug\netstandard2.0\ParkinLot.App.Dominio.dll
 C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Dominio\bin\Debug\netstandard2.0\ParkinLot.App.Dominio.pdb
@@ -28,3 +36,4 @@ C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Dominio\obj\Debug\net
 C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Dominio\obj\Debug\netstandard2.0\ParkinLot.App.Dominio.dll
 C:\MinTic\DS_C3\Final\ColDevps\ParkinLot.App\ParkinLot.App.Dominio\obj\Debug\netstandard2.0\ParkinLot.App.Dominio.pdb
 >>>>>>> 7c3b33d8b46e4800595aa0285434400b6b89b9f0
+>>>>>>> 8588e88cd12902871c44169d2d3f65020c687755

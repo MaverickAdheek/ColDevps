@@ -2,9 +2,12 @@
 using ParkinLot.App.Dominio;
 using ParkinLot.App.Persistencia;
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 //using ParkinLot.App.Persistencia.AppRepositorios;
 =======
 >>>>>>> eace1d9e3fbe02c4b220d5303466da979ca7bfa7
+>>>>>>> 8588e88cd12902871c44169d2d3f65020c687755
 
 namespace ParkinLot.App.Consola
 {
